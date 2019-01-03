@@ -1,6 +1,6 @@
 # ReadySHA3
 
-# Updated : 20 Dec 2018, Simpy Parveen
+Updated : 20 Dec 2018, Simpy Parveen(simpy.parveen1@ucalgary.ca)
 
 A simple implemenation of SHA3 hash function. SHA-3 uses the sponge construction,[12][23] in which data is "absorbed" into the sponge, then the result is "squeezed" out. 
 In the absorbing phase, message blocks are XORed into a subset of the state, which is then transformed as a whole using a permutation function f. In the "squeeze" phase, output blocks are read from the same subset of the state, alternated with the state transformation function f. 
