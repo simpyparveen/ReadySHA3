@@ -28,6 +28,8 @@ Below are the commands to run and compile the codes. Please make necessary chang
     gcc main.c sha3.c -o output
     ./output
 
+Note : int main() is replaced for int main(int argc, char **argv)
+
 
 (ii)
       make
