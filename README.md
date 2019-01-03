@@ -20,3 +20,17 @@ officially supported hash sizes.
 // Inut : Secret key(1024bits = 128 bytes)
 //Output : Public Key (512 bits= 64bytes)
 
+
+#Run and Compile :
+Below are the commands to run and compile the codes. Please make necessary changes in main() to make use of (i)
+
+(i)
+    gcc main.c sha3.c -o output
+    ./output
+
+
+(ii)
+      make
+      ./sha3test
+
+
